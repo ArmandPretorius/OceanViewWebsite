@@ -1,0 +1,269 @@
+/*background*/
+body {
+    margin:0px;
+    padding:0px;
+}
+
+.page {
+    width:100%;
+    min-width:1880px;
+    height:100vh;
+    background-image: url(../images/layton-diament-18618.jpg);
+    background-size:cover;
+    background-position:center center;
+}
+    
+
+/*side*/
+
+.side {
+    width:300px;
+    float:left;
+    height:100vh;
+    position:fixed;
+    background-color:white;  
+    opacity: 0.8;
+    margin-left:20px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.side p {
+    color:black;
+    text-align: center;
+    margin-top: 77vh;
+    font-size:20px;
+    
+}
+
+/*logo*/
+
+.logo{
+    height:250px;
+    transition: 0.6s;
+    
+}
+
+
+.logo img {
+    width:200px;
+    margin-top:25px;
+    margin-left:50px;
+}
+
+.logo:hover {
+    transform: rotate(20deg);
+}
+
+/*navigation*/
+
+.navigation ul li{
+    text-align: center;
+    float:left;
+    list-style:none;
+    font-size: 40px;
+    margin-left: -40px;
+    width:300px;
+    margin-bottom:20px;
+    color:black;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.navigation a{
+    text-decoration: none;
+    color:black;
+    transition:0.4s;
+}
+
+.navigation a:hover {
+    font-size:50px;
+
+}
+
+/*content*/
+
+
+.content {
+    width:100%;
+    min-width: 980px;
+    float:left;
+    height:100vh;
+    
+}
+
+
+ h1 {
+    color:white;
+    margin:auto;
+     margin-top:100px;
+    font-size:93px;
+    text-align: center;
+     font-family: 'Philosopher', sans-serif;
+     
+}
+
+.content h2 {
+    color:white;
+     width:1020px;
+     margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-size:30px;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+/*table*/
+
+
+.table {
+    width:1080px;
+    margin:auto;
+}
+
+.table table{
+    width:1080px;
+    border-collapse: collapse; 
+    float:left;
+}
+
+
+.table th{
+    width:200px;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    border:3px solid black;
+
+    font-family: 'Philosopher', sans-serif;
+    
+}
+
+.table td{
+    width:900px;
+    background-color: white;
+    opacity:0.75;
+    font-size: 25px;
+    text-align: center;
+
+    border:1px solid black;
+    font-family: 'Lora', serif;
+}
+
+th.removeall {
+    color:red;
+    font-size:25px;
+    transition:0.4s;
+}
+
+th.removeall:hover {
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
+
+th.removeall:active {
+    text-decoration:line-through;  
+}
+
+td.remove {
+    color:red;
+    font-size:25px;
+    transition:0.4s;
+}
+
+td.remove:hover {
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
+
+td.remove:active {
+    text-decoration:line-through;  
+}
+
+.table img {
+    width:100px;
+    margin-top:10px;
+    transition:0.4s;
+    float:right;
+    margin-right:40px;
+
+}
+
+.table h2 {
+    transition:0.4s;
+    float:right;
+    text-align:center;
+    margin-top:0px;
+    color:black;
+    width:180px;
+    
+    
+}
+
+.table img:hover {
+    width:110px;
+    margin-left:45px;
+}
+
+.purchasebutton {
+    background-color:white;
+    width:180px;
+    height: 150px;
+    float:right;
+    margin-right:70px;
+    margin-top: 50px;
+    opacity:0.85;
+    transition:0.4s;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.purchasebutton:hover {
+    width:190px;
+    height:160px;
+    margin-right:75px;
+    cursor:pointer;
+}
+
+.purchasebutton:active {
+    opacity:1;
+}
+
+input.quantity{
+    font-size:25px;
+    width:30px;
+}
+
+input.quantity2{
+    font-size:25px;
+    width:30px;
+}
+
+input.date{
+    font-size:25px;
+    width:100px;
+}
+
+#dialog-confirm {
+    display:none;
+}
+
+.noItems{
+    display:none;
+    text-align: center;
+    width:800px;
+    margin:auto;
+    font-size:20px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+
+
+
+
+
+
+

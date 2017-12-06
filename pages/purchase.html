@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Purchase Ocean View</title>
+        <link href="../css/purchase.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Philosopher" rel="stylesheet">
+        <link rel="stylesheet" href="../js/jquery-ui-1.11.4/jquery-ui.css" />
+        <script src="../js/jquery-1.11.2/jquery.js"></script>
+        <script src="../js/jquery-ui-1.11.4/jquery-ui.js"></script>
+        <script src="../js/purchase.js"></script>
+        <script src="../js/main.js"></script>
+    </head>
+    
+    <body>
+        
+        <div class="page">
+            
+
+        
+            <div class="side">
+                
+
+                
+                <div class="logo">
+                    
+                    <img src="../images/logo.png" alt="Ocean View Logo">
+                
+                </div><!--logo-->
+                
+
+                
+                <div class="navigation">
+                    
+                    <ul>
+                        
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="purchase.html"><u>Purchase</u></a></li>
+                    
+                    </ul>
+                
+                </div><!--navigation-->
+                
+                <p>OceanView&#169;2017</p>
+        
+            </div><!--side-->
+        
+            <div class="content">
+                
+                <h1>Ocean View Purchase</h1>
+                
+                <h2>View and purchase your new adventures. You can also remove Destinations as you like!</h2>
+                
+                
+                <div class="table">
+                    
+                     
+                    <table>
+                        
+                        <thead>
+                            <tr>
+                                <th>Destination Code</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Date</th>
+                                <th>Type</th>
+                                <th>Ticket Quantity</th>
+                                <th>Total Cost (R)</th>
+                                <th class="removeall">Remove All</th>
+                        
+                            </tr>
+                            
+                            
+                        </thead>
+                        
+                        <tbody>
+                            
+                            <tr>
+    
+                                <td>001</td>
+                                <td>Durban</td>
+                                <td>Cape Town</td>
+                                <td><input type="text" name="date" class="date"></td>
+                                <td>Multi Destinations</td>
+                                <td><input type="text" name="quantity" class="quantity"></td>
+                                <td id="price" data-cost="1000">0</td>
+                                <td class="remove">Remove</td>
+                            
+                            </tr>
+                                
+                            <tr>
+    
+                                <td>003</td>
+                                <td>Richards Bay</td>
+                                <td>Durban</td>
+                                <td><input type="text" name="date" class="date"></td>
+                                <td>Row Boat</td>
+                                <td><input type="text" name="quantity" class="quantity2"></td>
+                                <td id="price2" data-cost="700">0</td>
+                                <td class="remove">Remove</td>
+                            
+                            </tr>
+                            
+                        
+                        </tbody>
+                        
+                    
+                    </table>
+                    
+                    
+                    <div class="purchasebutton">
+                    
+                        <img src="../images/ic_directions_boat_black_24px.svg" alt="Purchase button">
+                        <h2>PURCHASE</h2>
+                        
+                    </div><!--purchasebutton-->
+                    
+                </div><!--table-->
+                    
+                <div class="noItems">
+                    <p>No Cruises are selected</p>
+                </div><!--noItems-->
+                
+        
+        
+            </div><!--content-->
+            
+            <div id="dialog-confirm" title="Confirm Purchase?">
+                <p>
+                    <span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>
+                    Are you sure you wish to purchase this Cruise Adventure?
+                </p>
+            </div><!--dialog-confirm-->
+                
+            
+        </div><!--page-->
+    
+    </body>
+</html>

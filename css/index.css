@@ -1,0 +1,228 @@
+/*background*/
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+.page {
+    width:100%;
+    min-width:1880px;
+    height:100vh;
+    background-image: url(../images/layton-diament-18618.jpg);
+    background-size:cover;
+    background-position:center center;
+}
+    
+/*side*/
+
+.side {
+    width:300px;
+    float:left;
+    height:100vh;
+    position:fixed;
+    margin-left:20px;
+    background-color:white;  
+    opacity: 0.8;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.side p {
+    color:black;
+    text-align: center;
+    margin-top: 77vh;
+    font-size:20px;
+    
+}
+
+/*logo*/
+
+.logo{
+    height:250px;
+    transition: 0.6s;
+    
+}
+
+.logo:hover {
+    transform:rotate(20deg);
+}
+
+
+.logo img {
+    width:200px;
+    margin-top:25px;
+    margin-left:50px;
+}
+
+/*navigation*/
+
+.navigation ul li{
+    text-align: center;
+    float:left;
+    list-style:none;
+    font-size: 40px;
+    margin-left: -40px;
+    width:300px;
+    margin-bottom:20px;
+    color:black;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.navigation a{
+    text-decoration: none;
+    color:black;    
+    transition:0.4s;
+}
+
+.navigation a:hover {
+    font-size:50px;
+
+}
+
+
+/*content*/
+
+.content {
+    width:100%;
+    min-width: 1280px;
+    float:left;
+    height:100vh;
+    margin:auto;
+}
+
+
+
+
+ h1 {
+    color:white;
+    margin:auto;
+     margin-top:100px;
+    font-size:93px;
+    text-align: center;
+     font-family: 'Philosopher', sans-serif;
+     
+}
+
+.content h2 {
+    color:white;
+     width:880px;
+     margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-size:30px;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+/*accordion*/
+
+.accordion_group {
+    width:980px;
+    text-align: center;
+    margin:auto;
+    margin-top:50px;
+
+    
+}
+
+button.accordion {
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+    width: 980px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size:50px;
+    font-family: 'Philosopher', sans-serif;
+    margin:0px;
+    
+}
+
+button.accordion:active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+.panel {
+    background-color: white;
+    font-size:20px;
+    width:890px;
+    text-align: left; 
+    padding:0px;
+    font-family: 'Lora', serif;
+    margin:0px;
+    float:left;
+}
+
+
+
+.panel img {
+    width: 600px;
+    margin-left:140px;
+}
+
+.panel ol li {
+    margin-left:20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.panel ol p {
+    margin-left:25px;
+    margin-right:25px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 17px;  
+}
+
+#boatYear img {
+    width:500px;
+    float:left;
+    margin:10px;
+    
+    
+}
+
+#map img {
+    width:600px;
+    float:left;
+    margin-left:30px;
+    
+    
+}
+
+
+#port{
+    float:right;
+}
+
+#port img {
+    width: 40px;
+    margin-top:300px;
+    float:left;
+
+}
+
+#port p{
+    float:left;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    margin-top:310px;
+    margin-right:0px;
+}
+
+
+.panel p {
+    margin-right:10px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Destinations of Ocean View</title>
+        <link rel="stylesheet" href="../js/jquery-ui-1.11.4/jquery-ui.css" />
+        <script src="../js/jquery-1.11.2/jquery.js"></script>
+        <script src="../js/jquery-ui-1.11.4/jquery-ui.js"></script>
+        <link href="../css/destination.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Philosopher" rel="stylesheet">
+        <script src="../js/destination.js"></script>
+        <script src="../js/main.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <div class="page">
+                    
+                
+               
+            
+            <div class="side">
+                
+
+                
+                <div class="logo">
+                    
+                    <img src="../images/logo.png" alt="Ocean View Logo">
+                
+                </div><!--logo-->
+                
+
+                
+                <div class="navigation">
+                    
+                    <ul>
+                        
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="destination.html"><u>Destination</u></a></li>
+                        <li><a href="purchase.html">Purchase</a></li>
+                    
+                    </ul>
+                
+                </div><!--navigation-->
+                
+                <p>OceanView&#169;2017</p>
+        
+            </div><!--side-->
+        
+            <div class="content">
+                
+                <h1>Ocean View Destination</h1>
+                
+                <h2>Find your next trip on your adventure with us!</h2>
+                
+                
+                <div class="accordian_group">
+                
+                    <button id="allF" class="accordion" value="ALL" >All Destinations</button>
+
+                    <button id="shortF" class="accordion" value="SHO" >Short Duration Trip</button>
+
+                    <button id="longF" class="accordion" value="LON" >Long Duration Trip</button>
+                    
+                    <button id="singleF" class="accordion" value="SIN">Single Destination Trips</button>
+                    
+                    <button id="multiF" class="accordion" value="MUL">Multiple Destination Trips</button>                    
+
+                    <button id="returnF" class="accordion" value="RET" >Return Trips</button>                    
+                    
+                    <button id="rowF" class="accordion" value="ROW" >Row Boat Destinations</button>
+                    
+                </div><!--accordian_group-->
+                
+                <div class="panel">
+                        
+                    <div class="table">
+                            
+                        <h4></h4>
+                        
+                                
+                        <div class="headers">
+                            <h3>Destination Code</h3>
+                            <h3>From</h3>
+                            <h3>To</h3>
+                            <h3>Stop</h3>
+                            <h3>Price</h3>
+                            
+                        </div><!--headers-->
+                            
+                            
+                            
+                        <div class="options 1" data-lenght="short">
+                            <h3>001</h3>
+                            <h3>Richards Bay</h3>
+                            <h3 id="returns" data-return="n">Durban</h3>
+                            <h3 id="stops" data-stop="n">None</h3>
+                            <h3 id="cheaps" data-cheap="y"> R700</h3>
+                                    
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                        <div class="options 7" data-lenght="short">
+                            <h3>002</h3>
+                            <h3>Cape Town</h3>
+                            <h3 data-return="y">Saldanha</h3>
+                            <h3 id="stops" data-stop="n">None</h3>
+                            <h3 id="cheaps" data-cheap="y"> R700</h3>
+                                    
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                            
+                            
+                        <div class="options 2" data-lenght="long">
+                            <h3>003</h3>
+                            <h3>Durban</h3>
+                            <h3 id="returns" data-return="n">Cape Town</h3>
+                            <h3 id="stops" data-stop="n"> None</h3>
+                            <h3 id="cheaps" data-cheap="n"> R1000</h3>
+                                
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                            
+                            
+                        <div class="options 3" data-lenght="short">
+                            <h3>004</h3>
+                            <h3>Cape Town</h3>
+                            <h3 id="returns" data-return="n">Port Elizabeth</h3>
+                            <h3 id="stops" data-stop="n"> None</h3>
+                            <h3 id="cheaps" data-cheap="n"> R1000</h3>
+                                
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                        <div class="options 10" data-lenght="long">
+                            <h3>005</h3>
+                            <h3>Durban</h3>
+                            <h3 id="returns" data-return="y">East London</h3>
+                            <h3 id="stops" data-stop="n"> None</h3>
+                            <h3 id="cheaps" data-cheap="n"> R1000</h3>
+                                
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                            
+                        <div class="options 4" data-lenght="long">
+                            <h3>006</h3>
+                            <h3>Cape Town</h3>
+                            <h3 id="returns" data-return="y">Durban</h3>
+                            <h3 id="stops" data-stop="y"> East London</h3>
+                            <h3 id="cheaps" data-cheap="n"> R1400</h3>
+                                
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                        <div class="options 8" data-lenght="long">
+                            <h3>007</h3>
+                            <h3>Richards Bay</h3>
+                            <h3 id="returns" data-return="n">Saldanha</h3>
+                            <h3 id="stops" data-stop="y"> Mossel Bay</h3>
+                            <h3 id="cheaps" data-cheap="n"> R1400</h3>
+                                
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                        <div class="options 9" data-lenght="long">
+                            <h3>008</h3>
+                            <h3>Mossel Bay</h3>
+                            <h3 id="returns" data-return="n">Durban</h3>
+                            <h3 id="stops" data-stop="y"> Port Elizabeth</h3>
+                            <h3 id="cheaps" data-cheap="n"> R1400</h3>
+                                
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                        <div class="options 5" data-lenght="long">
+                            <h3>009</h3>
+                            <h3>Cape Town</h3>
+                            <h3 id="returns" data-return="y">Durban</h3>
+                            <h3 id="stops" data-stop="n"> None</h3>
+                            <h3 id="cheaps" data-cheap="n"> R1600</h3>
+                                
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                        <div class="options 6" data-lenght="short">
+                            <h3>010</h3>
+                            <h3>Richards Bay</h3>
+                            <h3 id="returns" data-return="n">Durban</h3>
+                            <h3 id="stops" data-stop="n"> None</h3>
+                            <h3 id="cheaps" data-cheap="y"> R500</h3>
+                                
+                            <a href="purchase.html"><img src="../images/ic_add_shopping_cart_black_24px.svg"></a>
+                            
+                        </div><!--options-->
+                            
+                                    
+                                
+                        
+                    </div><!--table-->
+
+                
+                
+                </div><!--panel-->
+                
+        
+    
+            </div><!--content-->
+                
+                 
+            
+        </div><!--page-->
+    
+    </body>
+</html>
